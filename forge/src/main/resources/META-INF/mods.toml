@@ -9,7 +9,7 @@ displayName = "Create: Crystal Clear"
 logoFile = "logo.png"
 authors = "Cyvack"
 description = '''
-Compatible with Create 0.5.1.a
+Compatible with Create 6+
 The Ultimate Glass Experience.'''
 
 [[dependencies.crystal_clear]]
@@ -29,6 +29,6 @@ The Ultimate Glass Experience.'''
 [[dependencies.crystal_clear]]
 modId="create"
 mandatory=true
-versionRange="[0.5.1.a,)"
+versionRange="[6.0.0,6.1.0)"
 ordering="AFTER"
 side="BOTH"
