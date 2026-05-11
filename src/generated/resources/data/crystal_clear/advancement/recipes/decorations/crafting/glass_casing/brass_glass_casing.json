@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "crystal_clear:crafting/glass_casing/brass_glass_casing"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_valve": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#create:casing"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_valve"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crystal_clear:crafting/glass_casing/brass_glass_casing"
+    ]
+  }
+}
